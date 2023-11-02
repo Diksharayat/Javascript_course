@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Variables</title>
+          
+        </head>
+        <body>
+           
+        <script>
+         let Variable1=3;
+         console.log(Variable1);
+         
+         let calculations = 2+2;
+        console.log(calculations);
+        console.log(calculations+2);
+
+        const result = calculations+2;
+        console.log(result);
+
+        let message = 'hello';
+        console.log(message); console.log(";");
+        //we can change the value of variable through this.
+        Variable1 = 5;
+        console.log(Variable1);
+
+        Variable1= Variable1 +1;
+        console.log(Variable1);
+
+        // const cant change its value later
+        
+        const Variable2=3;
+        // const make our code safer and easier to understand
+        // best practice is to use const variable
+        // we only use let if we want to change value of variable
+
+        var variable3=3;
+        // can be changed later
+        // it has some issues thats why we dont prefer var vin new javascript code.
+        console.log(typeof 3);
+        console.log(typeof (3));
+        console.log(typeof message);
+        console.log(typeof(Variable2));
+
+
+        // EXERCISES
+        // 5a) 5b)
+        const name="DIKSHA";
+        console.log(`My name is ${name}`);
+        // 5c,d,e
+        const calculation=(5+2*3+9);
+        const cost=calculation;
+        const tax=calculation*0.1;
+        console.log(tax);
+console.log(`Tax(10%):$${tax}`);
+console.log(`cost of food ${cost}`);
+
+console.log(`totalCost:$${cost+tax}`);
+
+        
+
+
+        
+
+
+        </script>
+        </body>
+    </html>
+
+
