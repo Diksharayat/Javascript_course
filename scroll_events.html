@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>scroll events</title>
+  <style>
+    div{
+      width: 50px;
+      height: 5000px;
+      background-color:red;
+    }
+  </style>
+</head>
+<body>
+  <h1>capturing scroll events</h1>
+  <div></div>
+  <script>
+    var pagePop;
+    window.addEventListener('scroll',function(){
+      pagePop=window.pageYOffset;
+      console.log(pagePop);
+    })
+  </script>
+</body>
+</html>
